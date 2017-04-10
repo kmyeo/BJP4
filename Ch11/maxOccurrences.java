@@ -6,6 +6,6 @@ public int maxOccurrences (List<Integer> list) {
     }
     int max = 0;
     for (int val : map.values())
-        max = Math.max(max, val);
+        max = Math.max(max,val);
     return max;
 }
